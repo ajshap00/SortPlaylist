@@ -33,11 +33,11 @@ To run this project, you'll need:
     pip install spotipy python-decouple
 
 3. **Create a .env file in the project directory and add your Spotify API credentials:**
-   To get clientid and clientsecret go to:
-   - https://developer.spotify.com/
-   - create an account, go to dashboard and create an app
-   - fill out the information it generally doesnt matter
-   - go to app settings, and find clientid and clientsecret
+   - To get clientid and clientsecret go to:
+     - https://developer.spotify.com/
+     - create an account, go to dashboard and create an app
+     - fill out the information it generally doesnt matter
+     - go to app settings, and find clientid and clientsecret
 
    ```bash
    SPOTIFY_CLIENT_ID=your_client_id
