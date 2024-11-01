@@ -33,13 +33,19 @@ To run this project, you'll need:
     pip install spotipy python-decouple
 
 3. **Create a .env file in the project directory and add your Spotify API credentials:**
+   To get clientid and clientsecret go to:
+   - https://developer.spotify.com/
+   - create an account, go to dashboard and create an app
+   - fill out the information it generally doesnt matter
+   - go to app settings, and find clientid and clientsecret
+
    ```bash
    SPOTIFY_CLIENT_ID=your_client_id
    SPOTIFY_CLIENT_SECRET=your_client_secret
    SPOTIFY_REDIRECT_URI=http://localhost:8888/callback
    SPOTIFY_USERNAME=your_spotify_username
 
-4. **Obtain Spotify API Credentials:**
+5. **Obtain Spotify API Credentials:**
     - Go to the Spotify Developer Dashboard.
     - Create a new application to get your Client ID and Client Secret.
     - Set the Redirect URI in your application settings to match the one in your .env file.
