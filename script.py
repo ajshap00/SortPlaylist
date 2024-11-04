@@ -1,6 +1,5 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-import json
 from decouple import config
 
 # Spotify API credentials
